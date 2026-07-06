@@ -490,7 +490,36 @@ p {
 	line-height: 2rem;
 	font-weight: 500;
 }
+
 /*End contact Section */
+
+/* WhatsApp CTA */
+.whatsapp-cta {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15rem;
+	margin-bottom: 3rem;
+}
+.whatsapp-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.8rem;
+	background-color: #25D366;
+	color: white;
+	padding: 2rem 3rem;
+	border-radius: 50px;
+	font-size: 3rem;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+	text-decoration: none;
+}
+.whatsapp-btn img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+/* End WhatsApp CTA */
 
 /* Footer */
 #footer {
@@ -667,6 +696,20 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+
+	.whatsapp-cta {
+		margin-top: 20rem;
+		margin-bottom: 7rem;
+	}
+	.whatsapp-btn {
+		gap: 0.8rem;
+		padding: 1.6rem 5rem;
+		font-size: 1rem;
+	}
+	.whatsapp-btn img {
+		width: 25px;
+		height: 25px;
+	}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
@@ -701,3 +744,157 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+/* ===========================
+   Smartphone (max 767px)
+=========================== */
+@media only screen and (max-width: 767px) {
+
+	/* Header */
+	#header .brand h1 {
+		font-size: 2.2rem;
+	}
+
+	#header .hamburger {
+		width: 55px;
+		height: 55px;
+		margin-right: 10px;
+	}
+
+	/* Hero */
+	#hero .hero {
+		padding: 0 20px;
+		text-align: center;
+		justify-content: center;
+	}
+
+	#hero h1 {
+		font-size: 3.8rem;
+	}
+
+	.cta {
+		font-size: 1.6rem;
+		padding: 12px 30px;
+	}
+
+	/* Titoli */
+	.section-title {
+		font-size: 3.2rem;
+	}
+
+	/* Services */
+	#services .services {
+		padding: 60px 20px;
+	}
+
+	#services .service-item {
+		flex-basis: 100%;
+		margin: 15px 0;
+		padding: 25px;
+	}
+
+	/* Projects */
+	#projects .projects {
+		padding: 60px 0;
+	}
+
+	#projects .project-item {
+		width: 95%;
+	}
+
+	#projects .project-info {
+		padding: 20px;
+	}
+
+	#projects .project-info h1 {
+		font-size: 3rem;
+	}
+
+	#projects .project-info h2 {
+		font-size: 1.8rem;
+	}
+
+	#projects .project-img {
+		height: 220px;
+	}
+
+	/* About */
+	#about .about {
+		padding: 60px 20px;
+	}
+
+	#about .col-left {
+		width: 220px;
+		height: 320px;
+	}
+
+	#about .col-right h2 {
+		font-size: 1.7rem;
+	}
+
+	/* Contact */
+	#contact .contact {
+		padding: 60px 0;
+	}
+
+	#contact .contact-items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#contact .contact-item {
+		width: 95%;
+		margin: 15px 0;
+	}
+
+	#contact .contact-info h1 {
+		font-size: 2rem;
+	}
+
+	#contact .contact-info h2 {
+		font-size: 1.5rem;
+	}
+
+	/* WhatsApp */
+	.whatsapp-cta {
+		margin-top: 5rem;
+		margin-bottom: 3rem;
+	}
+
+	.whatsapp-btn {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		width: 120px;
+		height: 180px;
+
+		padding: 15px;
+		border-radius: 20px;
+
+		font-size: 1.6rem;
+		text-align: center;
+		line-height: 1.4;
+		gap: 15px;
+		white-space: normal;
+	}
+
+	.whatsapp-btn img {
+		width: 42px;
+		height: 42px;
+	}
+
+	/* Footer */
+	#footer h2 {
+		font-size: 1.5rem;
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	#footer .social-item {
+		width: 45px;
+		height: 45px;
+	}
+}
