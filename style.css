@@ -868,22 +868,21 @@ p {
 		align-items: center;
 		justify-content: center;
 
-		width: 120px;
-		height: 180px;
+		width: 150px;
+		height: 140px;
 
 		padding: 15px;
-		border-radius: 20px;
+		border-radius: 15px;
 
 		font-size: 1.6rem;
 		text-align: center;
 		line-height: 1.4;
-		gap: 15px;
 		white-space: normal;
 	}
 
 	.whatsapp-btn img {
-		width: 42px;
-		height: 42px;
+		width: 35px;
+		height: 35px;
 	}
 
 	/* Footer */
